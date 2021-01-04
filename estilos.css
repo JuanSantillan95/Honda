@@ -1,21 +1,26 @@
 body {
-	font-family: "Arial";
-	font-size: 16px;
+	font-family: "calibri";
+	font-size: 1.1em;
+	color: rgb(213, 216, 220);
+	background-color: rgb(39, 55, 70);
 }
 
 h1 {
 	font-size: 55px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 	text-align: center;
 	outline-color: rgb(255, 0, 0);
 	padding: 40px;
 	margin: 0px;
-    background-color: rgb(255, 0, 0);
-	color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.6);
 }
 
 h2 {
 	text-align: center;
+	padding: 10px;
+	background-color: rgba(255, 0, 0, 0.6);
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 a {
@@ -23,17 +28,9 @@ a {
 	color: red;
 }
 
-table {
-	align-content: center;
-	align-self: center;
-	position: center;
-	justify-content: center;
-}
-
-}
 #subtitulo {
-	text-transform: uppercase;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #tabla {
@@ -52,5 +49,5 @@ table {
 
 #imagenes {
 	width: 400px;
+	align-items: center;
 }
-
