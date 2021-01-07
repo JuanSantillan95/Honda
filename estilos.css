@@ -1,53 +1,70 @@
 body {
 	font-family: "calibri";
+	line-height: 150%;
 	font-size: 1.1em;
-	color: rgb(213, 216, 220);
-	background-color: rgb(39, 55, 70);
+	color: #FFFFFF;
+	background-image: url(imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 80px;
   text-transform: uppercase;
 	text-align: center;
-	outline-color: rgb(255, 0, 0);
-	padding: 40px;
-	margin: 0px;
-  background-color: rgba(255, 0, 0, 0.6);
+	padding-bottom: 1px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 80px;
+	color: rgba(230, 230, 230, 0.5);
 }
 
 h2 {
 	text-align: center;
 	padding: 10px;
-	background-color: rgba(255, 0, 0, 0.6);
-	margin-left: 80px;
-	margin-right: 80px;
+	color: rgba(230, 230, 230, 0.5);
 }
 
 a {
 	text-decoration: none;
-	color: red;
+	color: #FFFFFF;
+}
+
+table {	width: 100%;}
+
+table, tr, td {
+	font-style: italic;
+	color: rgba(230, 230, 230, 0.5);
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+}
+
+th {
+	font-size: 1.5em;
+}
+
+.tabla {
+	padding: 60px;
+}
+
+.ejemplo {
+		padding: 60px;
 }
 
 #subtitulo {
+	color: rgba(230, 230, 230, 0.5);
 	text-align: center;
 	text-transform: uppercase;
 }
 
-#tabla {
-	text-align: center;
-}
-
-#parrafo {
-	margin-right: 80px;
-	margin-left: 80px;
-}
-
-#parrafo2 {
-	position: center;
+#p1, #p2, #p3, #p4 {
+	padding: 40px;
 	text-align: center;
 }
 
 #imagenes {
-	width: 400px;
-	align-items: center;
+	width: 500px;
+	border-radius: 10px;
 }
